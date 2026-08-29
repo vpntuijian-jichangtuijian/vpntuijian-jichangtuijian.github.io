@@ -1,0 +1,11 @@
+[project]
+name = "the-best-vpns"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "jinja2>=3.1.6",
+    "pyyaml>=6.0.3",
+    "requests>=2.34.2",
+    "rich>=15.0.0",
+]

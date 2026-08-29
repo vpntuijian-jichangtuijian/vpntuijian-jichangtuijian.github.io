@@ -1,0 +1,56 @@
+﻿name: Data and Link Quality Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "0 2 * * 1" # 每周一凌晨自动执行巡检与刷新
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-and-score:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml requests jinja2 rich
+
+      - name: Validate Structured Data Schema
+        run: python scripts/validate_data.py
+
+      - name: Check Links and Health
+        run: python scripts/check_links.py
+
+      - name: Build README from SSOT Data
+        run: python scripts/build_readme.py
+
+      - name: Run Quality and SEO Evaluation Engine
+        run: python scripts/evaluate_quality.py
+
+      - name: Auto-Commit Refreshed Timestamp (on schedule)
+        if: github.event_name == 'schedule'
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff-index --quiet HEAD || git commit -m "chore(auto): weekly data validation & timestamp refresh"
+          git push

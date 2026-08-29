@@ -1,0 +1,1569 @@
+schema_version: '2.0'
+updated_at: '2026-08-29'
+maintenance_status: active
+total_providers: 50
+categories:
+- id: flagship_iepl
+  title: 🏆 旗舰极速与高端专线 (IEPL/IPLC 生产力主力)
+  description: 全内网专线不过墙，晚高峰 0 丢包，原生支持 ChatGPT/Claude 3.5/Sora/Midjourney 与 4K/8K 流媒体
+- id: cost_effective
+  title: ⚡ 高性价比与品质中继 (20-35 元档大众优选)
+  description: BGP 多线优化中继，大带宽低溢价，兼顾日常刷视频、代码开发与学术科研
+- id: budget_entry
+  title: 🌱 白菜平民与轻量备用 (10-18 元档学生轻度用)
+  description: 价格极低，适合作为第二主力备用梯子或轻度查资料出海
+- id: commercial_vpn
+  title: 🛡️ 全球顶级商业合规 VPN (外企/出差/隐私审计)
+  description: 自主研发客户端与专属防封协议，30天无理由退款，无日志第三方合规审计
+providers:
+- id: yuncat
+  name: 云猫VPN (Yuncat Cloud)
+  aliases:
+  - 云猫
+  - Yuncat
+  - 云猫机场
+  - cloud.yuncat.net
+  category: flagship_iepl
+  line_type: BGP 多线优化 + 极速 IEPL 专线
+  protocols:
+  - Hysteria 2
+  - VLESS-Reality
+  - Trojan
+  - Shadowsocks
+  price_starting: ￥0 免费试用 / ￥12/月起
+  bandwidth_tier: 10000Mbps 极速专线集群
+  tags:
+  - 🔥独家支持免费试用
+  - ChatGPT/Claude
+  - 4K/8K秒开
+  - 全平台一键导入
+  payment_methods:
+  - 支付宝
+  - 微信支付
+  refund_policy: 支持试用体验，工单极速响应
+  pros:
+  - 🔥【重点推荐】新用户注册直接领取免费试用流量，零成本上车测速
+  - 全节点标配解锁 ChatGPT 4o、Claude 3.5、Sora 及 Netflix/YouTube 4K
+  - 部署最新 Hysteria 2 与 VLESS-Reality 防封协议，晚高峰 0 丢包
+  cons:
+  - 高峰期免费试用节点可能需要排队，建议体验满意后升级高速专线
+  score: 99
+  status: active
+  is_featured: true
+  is_trial: true
+  aff_url: https://cloud.yuncat.net/#/register?code=IJOjygWb
+  website_url: https://cloud.yuncat.net/#/register?code=IJOjygWb
+- id: tag-vpn
+  name: TAG-VPN
+  aliases:
+  - TAG
+  - TAG机场
+  - TAG-VPN
+  category: flagship_iepl
+  line_type: 全球 IEPL 顶级专线
+  protocols:
+  - Hysteria 2
+  - Shadowsocks 2022
+  - Trojan
+  price_starting: ￥45/月
+  bandwidth_tier: 10000Mbps 极速冗余
+  tags:
+  - ChatGPT/Claude
+  - Netflix 4K
+  - 全专线
+  - 全球90+地区
+  payment_methods:
+  - 支付宝
+  - USDT
+  - 微信支付
+  refund_policy: 支持工单按量折算
+  pros:
+  - 全球罕见的 90+ 国家及冷门小众节点覆盖
+  - 全内网 IEPL 专线，晚高峰 4K 秒开无卡顿
+  - 完美解锁 OpenAI 全系列与主流流媒体
+  cons:
+  - 价格略高，入门门槛偏向极客与企业级用户
+  score: 98
+  status: active
+  aff_url: https://so.dianlanla.com/tag
+  website_url: https://tag-vpn.com
+- id: wgetcloud
+  name: WgetCloud VPN
+  aliases:
+  - WgetCloud
+  - 自建优质专线
+  - 恶魔云
+  category: flagship_iepl
+  line_type: 独享 BGP + IEPL 华为企业专线
+  protocols:
+  - Shadowsocks
+  - Trojan
+  - VLESS
+  price_starting: ￥49/月
+  bandwidth_tier: 5000Mbps 华为专线
+  tags:
+  - 企业级高可用
+  - ChatGPT/Claude
+  - Netflix 4K
+  - 动态BGP
+  payment_methods:
+  - 支付宝
+  - 微信
+  - USDT
+  refund_policy: 支持 24 小时服务保障
+  pros:
+  - 自研流量动态调度系统，极端网络环境下仍极度平稳
+  - 企业级售后支持，工单响应极快
+  - 针对 ChatGPT/Claude 进行专属出口防封调度
+  cons:
+  - 没有月付特别低廉的套餐，主打中高端商务体验
+  score: 97
+  status: active
+  aff_url: https://so.dianlanla.com/wgetcloud
+  website_url: https://wgetcloud.com
+- id: nexitally
+  name: Nexitally 奶昔-VPN
+  aliases:
+  - 奶昔
+  - Nexitally
+  - 佩奇奶昔
+  category: flagship_iepl
+  line_type: IEPL 唯云/双程专线
+  protocols:
+  - Trojan
+  - Shadowsocks
+  price_starting: ￥65/月
+  bandwidth_tier: 10000Mbps 顶级骨干
+  tags:
+  - 行业天花板
+  - 4K/8K秒开
+  - 全专线
+  - 流媒体全解
+  payment_methods:
+  - 支付宝
+  - USDT
+  refund_policy: 工单人工仲裁
+  pros:
+  - 机场界知名天花板品牌之一，线路带宽极为冗余
+  - 测速全绿无丢包，8K 视频即点即播
+  cons:
+  - 需购买专属 SmartAccess 规则，价格偏高
+  score: 97
+  status: active
+  aff_url: https://so.dianlanla.com/nexitally
+  website_url: https://nexitally.com
+- id: stc-spades
+  name: STC-SPADES-VPN
+  aliases:
+  - STC
+  - SPADES
+  - STC-SPADES
+  category: flagship_iepl
+  line_type: 多入口 BGP IEPL 专线
+  protocols:
+  - Hysteria 2
+  - Trojan
+  - Shadowsocks
+  price_starting: ￥38/月
+  bandwidth_tier: 2500Mbps 专线
+  tags:
+  - 游戏低延迟
+  - ChatGPT/Claude
+  - 流媒体解锁
+  - 老牌稳定
+  payment_methods:
+  - 支付宝
+  - 微信支付
+  - USDT
+  refund_policy: 工单支持退款
+  pros:
+  - 多年运营老品牌，线路稳定性久经考验
+  - 支持 Hysteria 2 协议，弱网抗丢包表现出色
+  cons:
+  - 高峰期偶尔部分热门节点延迟轻微波动
+  score: 96
+  status: active
+  aff_url: https://so.dianlanla.com/stc
+  website_url: https://stc-spades.com
+- id: speedcat
+  name: SpeedCAT闪电猫-VPN
+  aliases:
+  - 闪电猫
+  - SpeedCAT
+  - SpeedCAT闪电猫
+  category: flagship_iepl
+  line_type: 全内网专线 IPLC
+  protocols:
+  - Shadowsocks
+  - Trojan
+  price_starting: ￥30/月
+  bandwidth_tier: 2000Mbps 专线
+  tags:
+  - 性价比专线
+  - 流媒体解锁
+  - ChatGPT直连
+  - 全天测速平稳
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 支持工单退款
+  pros:
+  - 猫咪主题萌系 UI，后台使用非常友好
+  - 30元起步的真内网 IPLC 专线，性价比极高
+  cons:
+  - 节点数量相较 TAG 略少，专注主流地区
+  score: 96
+  status: active
+  aff_url: https://so.dianlanla.com/speedcat
+  website_url: https://speedcat.com
+- id: jikeyun
+  name: 极客云VPN
+  aliases:
+  - 极客云
+  - Jike Cloud
+  - 极客加速
+  category: cost_effective
+  line_type: BGP 多线中继 + 专线混合
+  protocols:
+  - VLESS
+  - Trojan
+  - Shadowsocks
+  price_starting: ￥19.9/月
+  bandwidth_tier: 1000Mbps 混合
+  tags:
+  - 高性价比
+  - 老牌大厂
+  - 流媒体
+  - 多端支持
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 24小时工单响应
+  pros:
+  - 运营时间超过 6 年的老牌大厂，极具信誉
+  - 价格亲民且大流量包充足，非常适合主力日常使用
+  cons:
+  - 节假日晚高峰部分普通中继节点偶有降速
+  score: 95
+  status: active
+  aff_url: https://so.dianlanla.com/jikeyun
+  website_url: https://jikeyun.com
+- id: dageyun
+  name: 大哥云-VPN
+  aliases:
+  - 大哥云
+  - Dage Cloud
+  category: cost_effective
+  line_type: 企业级高速 BGP 中继
+  protocols:
+  - Trojan
+  - VLESS
+  - Shadowsocks
+  price_starting: ￥19.9/月
+  bandwidth_tier: 1000Mbps 优质中继
+  tags:
+  - 老牌性价比
+  - ChatGPT
+  - 超大流量
+  - 新手推荐
+  payment_methods:
+  - 支付宝
+  - 微信支付
+  refund_policy: 支持工单售后
+  pros:
+  - 配置教程极其保姆级，新手一键导入零门槛
+  - 支持按周期购买超高性价比流量包
+  cons:
+  - 冷门地区节点较少
+  score: 95
+  status: active
+  aff_url: https://so.dianlanla.com/dageyun
+  website_url: https://dageyun.com
+- id: xinglian
+  name: 星链云VPN
+  aliases:
+  - 星链云
+  - Xinglian Cloud
+  category: cost_effective
+  line_type: BGP 专线优化中继
+  protocols:
+  - Hysteria 2
+  - Trojan
+  price_starting: ￥22/月
+  bandwidth_tier: 1500Mbps
+  tags:
+  - Hy2高速
+  - ChatGPT直连
+  - 晚高峰稳定
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 售后保障
+  pros:
+  - 全面部署 Hysteria 2 协议，下行吞吐率极高
+  - 对国内移动、联通等宽带有专项线路优化
+  cons:
+  - 高峰期负载较高需配合智能节点选择
+  score: 94
+  status: active
+  aff_url: https://so.dianlanla.com/xinglian
+  website_url: https://xinglian.com
+- id: bygcloud
+  name: bygcloud白月光-VPN
+  aliases:
+  - 白月光
+  - 白月光云
+  - bygcloud
+  category: cost_effective
+  line_type: 精品 IEPL 专线中继
+  protocols:
+  - Shadowsocks
+  - Trojan
+  price_starting: ￥25/月
+  bandwidth_tier: 2000Mbps
+  tags:
+  - 全解锁
+  - 无视高峰
+  - 低延迟
+  payment_methods:
+  - 支付宝
+  - 微信
+  - USDT
+  refund_policy: 支持退款
+  pros:
+  - 口碑极佳的低调品质机场，节点可用率常年 99.8%
+  - 全节点流媒体原生落地解锁
+  cons:
+  - 偶尔开启限量注册，需关注开通动态
+  score: 95
+  status: active
+  aff_url: https://so.dianlanla.com/bygcloud
+  website_url: https://bygcloud.com
+- id: ssrdog
+  name: SSRDOG-VPN
+  aliases:
+  - SSRDOG
+  - 狗机
+  - SSRDOG机场
+  category: cost_effective
+  line_type: IPLC 专线中继
+  protocols:
+  - VLESS
+  - Trojan
+  price_starting: ￥25/月
+  bandwidth_tier: 1500Mbps
+  tags:
+  - 稳定不折腾
+  - ChatGPT 4o
+  - 流媒体解锁
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 工单处理
+  pros:
+  - 线路架构平稳，运维团队技术实力强劲
+  - 节点测速 Ping 抖动极小
+  cons:
+  - 套餐层级较多，选购需仔细阅读流量额度
+  score: 94
+  status: active
+  aff_url: https://so.dianlanla.com/ssrdog
+  website_url: https://ssrdog.com
+- id: ytoo
+  name: YToo（歪兔）-VPN
+  aliases:
+  - YToo
+  - 歪兔
+  - 歪兔机场
+  category: flagship_iepl
+  line_type: IEPL 高端专线
+  protocols:
+  - Shadowsocks
+  - Trojan
+  price_starting: ￥36/月
+  bandwidth_tier: 3000Mbps
+  tags:
+  - 高端专线
+  - 流媒体
+  - ChatGPT
+  - 冷门小众国家
+  payment_methods:
+  - 支付宝
+  - USDT
+  refund_policy: 工单处理
+  pros:
+  - 老牌知名专线机场，节点地区丰富且延迟优异
+  - 客服技术支持响应迅速
+  cons:
+  - 热门时段有时会实行注册名额限制
+  score: 96
+  status: active
+  aff_url: https://so.dianlanla.com/ytoo
+  website_url: https://ytoo.com
+- id: xingyun
+  name: 星云-VPN
+  aliases:
+  - 星云
+  - 星云VPN
+  - Xingyun Cloud
+  category: cost_effective
+  line_type: BGP 多线优化中继
+  protocols:
+  - Trojan
+  - VLESS
+  price_starting: ￥18/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 性价比
+  - 入门首选
+  - 4K流媒体
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 支持退款
+  pros:
+  - 定价平易近人，流量充足
+  - 基础节点速度稳定，看 YouTube 4K 轻松拉满
+  cons:
+  - 没有提供冷门国家的节点
+  score: 93
+  status: active
+  aff_url: https://so.dianlanla.com/xingyun
+  website_url: https://xingyun.com
+- id: shanlian
+  name: 闪连VPN
+  aliases:
+  - 闪连
+  - Shanlian VPN
+  category: cost_effective
+  line_type: BGP 智能调度专线
+  protocols:
+  - Hysteria 2
+  - Trojan
+  price_starting: ￥20/月
+  bandwidth_tier: 1200Mbps
+  tags:
+  - 极速连接
+  - AI工具
+  - 晚高峰无卡顿
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 支持退款
+  pros:
+  - 智能节点健康探测，自动剔除离线节点
+  - 支持多设备同时在线使用
+  cons:
+  - 客户端建议使用 Clash Verge 或 Sing-box
+  score: 93
+  status: active
+  aff_url: https://so.dianlanla.com/shanlian
+  website_url: https://shanlian.com
+- id: peiqian
+  name: 赔钱-VPN
+  aliases:
+  - 赔钱机场
+  - 赔钱货
+  - Peiqian Cloud
+  category: budget_entry
+  line_type: 大带宽 BGP 优化隧道
+  protocols:
+  - Hysteria 2
+  - VLESS
+  price_starting: ￥9.9/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 白菜价
+  - 超大流量
+  - 学生党
+  - 备用神器
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 低价轻量支持
+  pros:
+  - 10 元不到即可获得百 G 级别流量，极具性价比
+  - 非常适合作为主力机场断线时的备用应急源
+  cons:
+  - 晚高峰个别节点可能出现排队缓冲
+  score: 91
+  status: active
+  aff_url: https://so.dianlanla.com/peiqian
+  website_url: https://peiqian.com
+- id: gougou
+  name: 狗狗加速-VPN
+  aliases:
+  - 狗狗加速
+  - Gougou Network
+  category: cost_effective
+  line_type: IEPL 专线
+  protocols:
+  - Shadowsocks
+  - Trojan
+  price_starting: ￥28/月
+  bandwidth_tier: 1500Mbps
+  tags:
+  - 全专线
+  - AI解锁
+  - 流畅4K
+  payment_methods:
+  - 支付宝
+  - 微信
+  - USDT
+  refund_policy: 工单支持
+  pros:
+  - 节点倍率普遍为 1.0，绝不虚标暗扣流量
+  - 全节点标配解锁 ChatGPT 与海外社交媒体
+  cons:
+  - 界面设计相对质朴
+  score: 94
+  status: active
+  aff_url: https://so.dianlanla.com/gougou
+  website_url: https://gougou.com
+- id: erwan
+  name: 尔湾云-VPN
+  aliases:
+  - 尔湾云
+  - Erwan Cloud
+  category: cost_effective
+  line_type: BGP 多线中继
+  protocols:
+  - Trojan
+  - VLESS
+  price_starting: ￥18.8/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 性价比
+  - 流媒体4K
+  - 稳定可靠
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 工单支持
+  pros:
+  - 北美与亚太节点优化出色，适合学术科研与代码拉取
+  - 长期平稳运营，信誉优良
+  cons:
+  - 没有原生独立客户端，需使用通用内核
+  score: 92
+  status: active
+  aff_url: https://so.dianlanla.com/erwan
+  website_url: https://erwan.com
+- id: jifeng
+  name: 疾风云-VPN
+  aliases:
+  - 疾风云
+  - Jifeng Cloud
+  category: cost_effective
+  line_type: 大带宽 BGP 优化
+  protocols:
+  - Trojan
+  - Shadowsocks
+  price_starting: ￥16.8/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 实惠大碗
+  - 流媒体解锁
+  - 客服在线
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 支持退款
+  pros:
+  - 价格低廉且日常可用性稳定，套餐选择灵活
+  - 支持微信与支付宝双向便捷结账
+  cons:
+  - 偶有节点维护需手动更新订阅
+  score: 92
+  status: active
+  aff_url: https://so.dianlanla.com/jifeng
+  website_url: https://jifeng.com
+- id: jiuxiao
+  name: 九霄云-VPN
+  aliases:
+  - 九霄云
+  - Jiuxiao Cloud
+  category: cost_effective
+  line_type: BGP 专线隧道
+  protocols:
+  - VLESS
+  - Trojan
+  price_starting: ￥19/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 稳定中继
+  - AI助手
+  - 多平台
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 工单保障
+  pros:
+  - 香港、日本、新加坡低延迟节点线路优化优秀
+  - 支持订阅转换与多协议输出
+  cons:
+  - 欧洲与美东节点延迟稍高
+  score: 92
+  status: active
+  aff_url: https://so.dianlanla.com/jiuxiao
+  website_url: https://jiuxiao.com
+- id: paopaodog
+  name: 泡泡Dog-VPN
+  aliases:
+  - 泡泡Dog
+  - PaopaoDog
+  category: flagship_iepl
+  line_type: IEPL 内网纯专线
+  protocols:
+  - Hysteria 2
+  - Trojan
+  price_starting: ￥35/月
+  bandwidth_tier: 2500Mbps
+  tags:
+  - 全专线
+  - AI极速
+  - 无丢包
+  - 极客首选
+  payment_methods:
+  - 支付宝
+  - 微信
+  - USDT
+  refund_policy: 支持退款
+  pros:
+  - 纯 IEPL 内网专线无惧外部敏感时期封锁
+  - 支持 Hysteria 2 极速抗弱网传输
+  cons:
+  - 高峰期偶尔有限制连接设备数策略
+  score: 95
+  status: active
+  aff_url: https://so.dianlanla.com/paopaodog
+  website_url: https://paopaodog.com
+- id: feimaoyun
+  name: 肥猫云VPN
+  aliases:
+  - 肥猫云
+  - Feimao Cloud
+  category: cost_effective
+  line_type: BGP 多线优化中继
+  protocols:
+  - Trojan
+  - Shadowsocks
+  price_starting: ￥15/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 高性价比
+  - 流媒体解锁
+  - 简单易用
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 工单支持
+  pros:
+  - 15 元即可享受充足流量与多国落地节点
+  - 网站后台简洁清爽，订阅链接生成速度快
+  cons:
+  - 不适合超高并发企业级生产环境
+  score: 93
+  status: active
+  aff_url: https://so.dianlanla.com/feimaoyun
+  website_url: https://feimaoyun.com
+- id: taishan-net
+  name: Taishan Net 泰山-VPN
+  aliases:
+  - 泰山
+  - 泰山云
+  - Taishan Net
+  category: cost_effective
+  line_type: 企业 BGP 中继
+  protocols:
+  - VLESS
+  - Trojan
+  price_starting: ￥22/月
+  bandwidth_tier: 1500Mbps
+  tags:
+  - 稳如泰山
+  - 流媒体全解锁
+  - 大流量
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 工单处理
+  pros:
+  - 正如其名，线路抗风险能力强，持续在线率高
+  - 支持 UDP 转发，游戏与语音通话延迟低
+  cons:
+  - 节点列表更新周期相对较长
+  score: 94
+  status: active
+  aff_url: https://so.dianlanla.com/taishan
+  website_url: https://taishan-net.com
+- id: shandian
+  name: 闪电-VPN
+  aliases:
+  - 闪电
+  - 闪电云
+  - Shandian Cloud
+  category: budget_entry
+  line_type: BGP 优化隧道
+  protocols:
+  - Trojan
+  - VLESS
+  price_starting: ￥12/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 入门实惠
+  - 流媒体
+  - 大流量包
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 工单售后
+  pros:
+  - 入门款套餐价格非常低，适合轻量查阅外网资料
+  - 支持一键导入 Clash 与 Shadowrocket
+  cons:
+  - 晚高峰速度中规中矩
+  score: 91
+  status: active
+  aff_url: https://so.dianlanla.com/shandian
+  website_url: https://shandian.com
+- id: sanyueqi
+  name: 三月七-VPN
+  aliases:
+  - 三月七
+  - March7 Cloud
+  category: cost_effective
+  line_type: IEPL/BGP 混合隧道
+  protocols:
+  - Hysteria 2
+  - Trojan
+  price_starting: ￥18/月
+  bandwidth_tier: 1200Mbps
+  tags:
+  - 二次元主题
+  - Hy2协议
+  - 低延迟
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 支持工单处理
+  pros:
+  - 支持现代化 Hysteria 2 协议，抗封锁能力优异
+  - 社区交流活跃，节点问题反馈修复迅速
+  cons:
+  - 节点覆盖以东亚及北美为主
+  score: 93
+  status: active
+  aff_url: https://so.dianlanla.com/sanyueqi
+  website_url: https://sanyueqi.com
+- id: naiu
+  name: 奶优 NaiU_Net-VPN
+  aliases:
+  - 奶优
+  - NaiU
+  - NaiU_Net
+  category: cost_effective
+  line_type: BGP 优化中继
+  protocols:
+  - Trojan
+  - Shadowsocks
+  price_starting: ￥16/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 高性价比
+  - 4K流媒体
+  - 多端支持
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 工单保障
+  pros:
+  - 流量充沛且性价比极高，适合日常刷推特与视频
+  - 全平台订阅兼容性良好
+  cons:
+  - 冷门国家节点较少
+  score: 92
+  status: active
+  aff_url: https://so.dianlanla.com/naiu
+  website_url: https://naiu.net
+- id: qingyun
+  name: 轻云VPN
+  aliases:
+  - 轻云
+  - Qingyun VPN
+  category: budget_entry
+  line_type: BGP 中继
+  protocols:
+  - VLESS
+  - Trojan
+  price_starting: ￥12.9/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 入门好用
+  - 学生轻度
+  - 稳定备用
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 支持工单
+  pros:
+  - 轻量化无广告设计，套餐价格亲民
+  - 长期保持平稳运行
+  cons:
+  - 节点速率未做万兆扩容
+  score: 91
+  status: active
+  aff_url: https://so.dianlanla.com/qingyun
+  website_url: https://qingyun.com
+- id: qiansumiao
+  name: 千速喵-VPN
+  aliases:
+  - 千速喵
+  - Qiansumiao
+  category: cost_effective
+  line_type: IEPL/BGP 专线
+  protocols:
+  - Hysteria 2
+  - Trojan
+  price_starting: ￥19.9/月
+  bandwidth_tier: 1500Mbps
+  tags:
+  - 高速稳定
+  - AI助手
+  - 流媒体解锁
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 工单退款
+  pros:
+  - 下行带宽充足，4K 视频加载无等待
+  - 全节点解锁 ChatGPT 与主流 AI 站点
+  cons:
+  - 注册时偶尔需要邀请码或等待开放
+  score: 93
+  status: active
+  aff_url: https://so.dianlanla.com/qiansumiao
+  website_url: https://qiansumiao.com
+- id: qingyunti
+  name: 青云梯-VPN
+  aliases:
+  - 青云梯
+  - Qingyunti
+  category: cost_effective
+  line_type: BGP 多线优化
+  protocols:
+  - Trojan
+  - Shadowsocks
+  price_starting: ￥18/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 老牌中继
+  - 大流量
+  - 新手推荐
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 支持退款
+  pros:
+  - 服务节点稳定，多年老品牌无跑路历史
+  - 后台教程涵盖各系统各种客户端
+  cons:
+  - 不支持定制专属节点
+  score: 92
+  status: active
+  aff_url: https://so.dianlanla.com/qingyunti
+  website_url: https://qingyunti.com
+- id: muniuyun
+  name: 牧牛云VPN
+  aliases:
+  - 牧牛云
+  - Muniu Cloud
+  category: budget_entry
+  line_type: BGP 隧道
+  protocols:
+  - Trojan
+  - VLESS
+  price_starting: ￥10/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 超低价
+  - 学生党
+  - 备用好物
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 工单售后
+  pros:
+  - 10 元超低上车成本，适合不愿大额投入的用户
+  - 节点基本覆盖港台日美核心地区
+  cons:
+  - 极端高峰期偶有波动
+  score: 90
+  status: active
+  aff_url: https://so.dianlanla.com/muniuyun
+  website_url: https://muniuyun.com
+- id: eternal-network
+  name: Eternal Network-VPN
+  aliases:
+  - Eternal Network
+  - Eternal云
+  category: flagship_iepl
+  line_type: 全内网专线 IPLC/IEPL
+  protocols:
+  - Shadowsocks
+  - Trojan
+  price_starting: ￥32/月
+  bandwidth_tier: 2000Mbps
+  tags:
+  - 纯专线
+  - 高私密
+  - 晚高峰无阻
+  payment_methods:
+  - 支付宝
+  - USDT
+  refund_policy: 工单处理
+  pros:
+  - 专线延迟低，跨境访问非常稳定
+  - 全节点解锁常见流媒体与 TikTok
+  cons:
+  - 知名度主要在极客圈流传
+  score: 94
+  status: active
+  aff_url: https://so.dianlanla.com/eternal
+  website_url: https://eternal-network.com
+- id: flyingbird
+  name: FLYINGBIRD飞鸟VPN
+  aliases:
+  - 飞鸟
+  - 飞鸟机场
+  - FLYINGBIRD
+  category: cost_effective
+  line_type: IEPL/BGP 专线
+  protocols:
+  - Trojan
+  - Shadowsocks
+  price_starting: ￥20/月
+  bandwidth_tier: 1500Mbps
+  tags:
+  - 老牌专线
+  - 高速稳定
+  - 多端支持
+  payment_methods:
+  - 支付宝
+  - 微信
+  - USDT
+  refund_policy: 工单支持
+  pros:
+  - 支持按月和按年多种计费模式，性价比突出
+  - 技术团队维护响应积极，常年稳定
+  cons:
+  - 高峰期冷门节点偶尔拥堵
+  score: 94
+  status: active
+  aff_url: https://so.dianlanla.com/flyingbird
+  website_url: https://flyingbird.com
+- id: bitz-net
+  name: Bitz Net-VPN
+  aliases:
+  - Bitz Net
+  - Bitz云
+  category: flagship_iepl
+  line_type: IEPL 企业级专线
+  protocols:
+  - Trojan
+  - Shadowsocks
+  price_starting: ￥39/月
+  bandwidth_tier: 2500Mbps
+  tags:
+  - 商务出海
+  - 全专线
+  - 企业级SLA
+  payment_methods:
+  - 支付宝
+  - 微信
+  - USDT
+  refund_policy: 企业工单退款
+  pros:
+  - 拥有企业级 SLA 协议保障，网络掉线率极低
+  - 针对海外云服务器与远程桌面做过专项优化
+  cons:
+  - 价格稍高，主打商务生产力场景
+  score: 95
+  status: active
+  aff_url: https://so.dianlanla.com/bitznet
+  website_url: https://bitznet.com
+- id: guangnianti
+  name: 光年梯vpn
+  aliases:
+  - 光年梯
+  - Guangnianti
+  category: cost_effective
+  line_type: BGP 多线优化
+  protocols:
+  - Trojan
+  - VLESS
+  price_starting: ￥15/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 高性价比
+  - 刷推油管
+  - 简单配置
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 支持退款
+  pros:
+  - 价格实惠，流量充足，基础刷网页看视频极速响应
+  - 支持一键扫码订阅
+  cons:
+  - 不适合极端低延迟竞技游戏需求
+  score: 92
+  status: active
+  aff_url: https://so.dianlanla.com/guangnianti
+  website_url: https://guangnianti.com
+- id: longmaoyun
+  name: 龙猫云VPN
+  aliases:
+  - 龙猫云
+  - Longmao Cloud
+  category: cost_effective
+  line_type: BGP 专线中继
+  protocols:
+  - Trojan
+  - Shadowsocks
+  price_starting: ￥18/月
+  bandwidth_tier: 1200Mbps
+  tags:
+  - 稳定中继
+  - AI解锁
+  - 多平台兼容
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 工单处理
+  pros:
+  - 节点状态监控透明，后台一目了然
+  - 全节点解锁 ChatGPT 4o / Claude 3.5
+  cons:
+  - 节点地区主要集中在亚太地区
+  score: 93
+  status: active
+  aff_url: https://so.dianlanla.com/longmaoyun
+  website_url: https://longmaoyun.com
+- id: cac-apex
+  name: CAC Apex-VPN
+  aliases:
+  - CAC Apex
+  - CAC云
+  category: cost_effective
+  line_type: BGP 专线中继
+  protocols:
+  - VLESS
+  - Trojan
+  price_starting: ￥22/月
+  bandwidth_tier: 1500Mbps
+  tags:
+  - 低延迟
+  - 游戏出海
+  - 大带宽
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 工单保障
+  pros:
+  - 专攻海外游戏加速与外贸业务，路由跳数少延迟低
+  - 支持 UDP 完整转发
+  cons:
+  - 网站文档偏向专业用户
+  score: 93
+  status: active
+  aff_url: https://so.dianlanla.com/cacapex
+  website_url: https://cacapex.com
+- id: yeshayun
+  name: 夜煞云VPN
+  aliases:
+  - 夜煞云
+  - Yesha Cloud
+  category: cost_effective
+  line_type: BGP 优化中继
+  protocols:
+  - Hysteria 2
+  - Trojan
+  price_starting: ￥17.9/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - Hy2高速
+  - 性价比
+  - 流媒体
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 支持退款
+  pros:
+  - 部署 Hysteria 2 协议，在弱网丢包环境下速度优势显著
+  - 性价比较高，新手友好
+  cons:
+  - 冷门国家节点覆盖不多
+  score: 92
+  status: active
+  aff_url: https://so.dianlanla.com/yeshayun
+  website_url: https://yeshayun.com
+- id: xgcloud
+  name: xgcloud-VPN
+  aliases:
+  - xgcloud
+  - 西瓜云
+  category: cost_effective
+  line_type: BGP 多线优化
+  protocols:
+  - Trojan
+  - Shadowsocks
+  price_starting: ￥18/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 流媒体4K
+  - 日常主力
+  - 稳定运营
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 工单支持
+  pros:
+  - 平稳运营多年，节点负载均衡机制完善
+  - 价格阶梯设计合理
+  cons:
+  - 没有专属独立 App
+  score: 92
+  status: active
+  aff_url: https://so.dianlanla.com/xgcloud
+  website_url: https://xgcloud.com
+- id: v2free
+  name: V2free-VPN
+  aliases:
+  - V2free
+  - 微兔云
+  category: cost_effective
+  line_type: BGP 高速中继
+  protocols:
+  - VLESS
+  - Trojan
+  price_starting: ￥20/月
+  bandwidth_tier: 1200Mbps
+  tags:
+  - 老牌口碑
+  - 流媒体解锁
+  - 多平台
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 支持退款
+  pros:
+  - 知名度高，节点维护及时，很少出现大面积断联
+  - 支持一键订阅与自定义规则
+  cons:
+  - 部分热门节点高峰期略有延迟上升
+  score: 93
+  status: active
+  aff_url: https://so.dianlanla.com/v2free
+  website_url: https://v2free.com
+- id: xsus
+  name: XSUS-VPN
+  aliases:
+  - XSUS
+  - XSUS Cloud
+  category: cost_effective
+  line_type: BGP 专线隧道
+  protocols:
+  - Trojan
+  - Shadowsocks
+  price_starting: ￥22/月
+  bandwidth_tier: 1500Mbps
+  tags:
+  - 全解锁
+  - 稳定高速
+  - 优质售后
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 工单售后
+  pros:
+  - 节点质量过硬，针对流媒体与社交平台提供专属落地
+  - 客服响应较快
+  cons:
+  - 活动优惠频率较低
+  score: 93
+  status: active
+  aff_url: https://so.dianlanla.com/xsus
+  website_url: https://xsus.com
+- id: hongxing
+  name: 红杏-VPN
+  aliases:
+  - 红杏
+  - 红杏加速
+  - Hongxing Cloud
+  category: cost_effective
+  line_type: BGP 高速中继
+  protocols:
+  - Trojan
+  - VLESS
+  price_starting: ￥19.9/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 老牌经典
+  - 新手友好
+  - 大流量
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 支持退款
+  pros:
+  - 老牌资深团队运营，服务架构成熟稳定
+  - 支持多客户端快速导入配置
+  cons:
+  - 不支持特定端口定制
+  score: 93
+  status: active
+  aff_url: https://so.dianlanla.com/hongxing
+  website_url: https://hongxing.com
+- id: riolu
+  name: Riolu 精灵学院-VPN
+  aliases:
+  - Riolu
+  - 精灵学院
+  - Riolu 精灵学院
+  category: flagship_iepl
+  line_type: IEPL 内网专线
+  protocols:
+  - Hysteria 2
+  - Shadowsocks
+  price_starting: ￥32/月
+  bandwidth_tier: 2000Mbps
+  tags:
+  - 极客专线
+  - 游戏低延迟
+  - Hy2抗丢包
+  payment_methods:
+  - 支付宝
+  - 微信
+  - USDT
+  refund_policy: 工单处理
+  pros:
+  - 小众高精专线机场，节点负载低，带宽充裕
+  - 支持 Hysteria 2 与 SS 全新加密协议
+  cons:
+  - 名额较少，需留意开放注册通知
+  score: 95
+  status: active
+  aff_url: https://so.dianlanla.com/riolu
+  website_url: https://riolu.com
+- id: cylink
+  name: Cylink 次元链接-VPN
+  aliases:
+  - Cylink
+  - 次元链接
+  - Cylink 次元链接
+  category: cost_effective
+  line_type: BGP 专线优化中继
+  protocols:
+  - Trojan
+  - VLESS
+  price_starting: ￥18/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 性价比
+  - 流媒体解锁
+  - 稳定连接
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 支持退款
+  pros:
+  - 界面精美，使用简单，节点在线率有保障
+  - 针对 YouTube 与 B站海外版做过速度优化
+  cons:
+  - 没有提供冷门欧美小众节点
+  score: 92
+  status: active
+  aff_url: https://so.dianlanla.com/cylink
+  website_url: https://cylink.com
+- id: coffee-cloud
+  name: Coffee Cloud 咖啡云-VPN
+  aliases:
+  - 咖啡云
+  - Coffee Cloud
+  - Coffee Cloud 咖啡云
+  category: cost_effective
+  line_type: BGP 专线优化
+  protocols:
+  - Trojan
+  - Shadowsocks
+  price_starting: ￥19/月
+  bandwidth_tier: 1200Mbps
+  tags:
+  - 小资情调
+  - 稳定高速
+  - 流媒体4K
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 工单处理
+  pros:
+  - 线路架构清晰，香港与新加坡节点速度极快
+  - 工单客服服务态度优秀
+  cons:
+  - 没有按量付费套餐
+  score: 93
+  status: active
+  aff_url: https://so.dianlanla.com/coffeecloud
+  website_url: https://coffeecloud.com
+- id: niceduck
+  name: NiceDuck-VPN
+  aliases:
+  - NiceDuck
+  - 好鸭
+  - NiceDuck机场
+  category: cost_effective
+  line_type: BGP 多线优化
+  protocols:
+  - Trojan
+  - VLESS
+  price_starting: ￥20/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 稳定中继
+  - AI助手
+  - 多端支持
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 支持退款
+  pros:
+  - 服务稳定，后台订阅链接兼容全网主流客户端
+  - 节点延迟低且抖动小
+  cons:
+  - 节点数量中等
+  score: 92
+  status: active
+  aff_url: https://so.dianlanla.com/niceduck
+  website_url: https://niceduck.com
+- id: cyberguard
+  name: CyberGuard-VPN
+  aliases:
+  - CyberGuard
+  - 赛博卫士
+  category: flagship_iepl
+  line_type: IEPL 高端专线
+  protocols:
+  - Hysteria 2
+  - Trojan
+  price_starting: ￥35/月
+  bandwidth_tier: 2000Mbps
+  tags:
+  - 全专线
+  - 高私密
+  - 晚高峰无卡顿
+  payment_methods:
+  - 支付宝
+  - USDT
+  refund_policy: 工单退款
+  pros:
+  - 全内网专线不过 GFW，晚高峰稳定性极佳
+  - 针对 ChatGPT 与各类跨境出海业务全面优化
+  cons:
+  - 定价偏向高端用户
+  score: 95
+  status: active
+  aff_url: https://so.dianlanla.com/cyberguard
+  website_url: https://cyberguard.com
+- id: yangfan
+  name: 杨帆云vpn
+  aliases:
+  - 杨帆云
+  - Yangfan Cloud
+  category: cost_effective
+  line_type: BGP 多线中继
+  protocols:
+  - Trojan
+  - Shadowsocks
+  price_starting: ￥18/月
+  bandwidth_tier: 1000Mbps
+  tags:
+  - 老牌性价比
+  - 简单好用
+  - 4K秒开
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 支持退款
+  pros:
+  - 运营时间长，信誉好，节点速度长期平稳
+  - 提供全平台详尽的配置教学文档
+  cons:
+  - 没有小众国家节点
+  score: 92
+  status: active
+  aff_url: https://so.dianlanla.com/yangfan
+  website_url: https://yangfan.com
+- id: cloud-vpn
+  name: Cloud-VPN
+  aliases:
+  - Cloud-VPN
+  - WCloud
+  - 云加速
+  category: cost_effective
+  line_type: BGP 专线中继
+  protocols:
+  - VLESS
+  - Trojan
+  price_starting: ￥20/月
+  bandwidth_tier: 1200Mbps
+  tags:
+  - 性价比
+  - 流媒体解锁
+  - 稳定连接
+  payment_methods:
+  - 支付宝
+  - 微信
+  refund_policy: 工单售后
+  pros:
+  - 节点覆盖广泛，支持主流流媒体平台原生解锁
+  - 操作简单易懂
+  cons:
+  - 极端高峰期需挑选负载较低的节点
+  score: 92
+  status: active
+  aff_url: https://so.dianlanla.com/wcloudvpn
+  website_url: https://cloud-vpn.com
+- id: expressvpn
+  name: ExpressVPN
+  aliases:
+  - Express
+  - Express VPN
+  category: commercial_vpn
+  line_type: 全球原生服务器集群 (Lightway 专有协议)
+  protocols:
+  - Lightway
+  - OpenVPN
+  - IKEv2
+  price_starting: $6.67/月
+  bandwidth_tier: 无限流量 / 千兆带宽
+  tags:
+  - 全球第一品牌
+  - 无日志审计
+  - 30天退款保证
+  - 官方一键App
+  payment_methods:
+  - 信用卡
+  - PayPal
+  - UnionPay 银联
+  - 加密货币
+  refund_policy: 30 天无条件全额退款
+  pros:
+  - 全球 105 个国家顶级服务器，上市公司运营，隐私安全天花板
+  - 自研 Lightway 协议，全平台独立 App 一键连接
+  - 第三方普华永道 (PwC) 独立无日志安全审计
+  cons:
+  - 价格高于普通中继机场，需要国际支付手段
+  score: 96
+  status: active
+  aff_url: https://so.dianlanla.com/expressvpn
+  website_url: https://expressvpn.com
+- id: nordvpn
+  name: NordVPN
+  aliases:
+  - Nord
+  - Nord VPN
+  category: commercial_vpn
+  line_type: NordLynx (WireGuard) 全球网格
+  protocols:
+  - NordLynx
+  - OpenVPN
+  - IKEv2
+  price_starting: $3.09/月
+  bandwidth_tier: 无限流量 / 顶级带宽
+  tags:
+  - 性价比商业VPN
+  - 混淆服务器
+  - 威胁防护
+  - 30天退款
+  payment_methods:
+  - 信用卡
+  - PayPal
+  - Google Pay
+  - 加密货币
+  refund_policy: 30 天无条件全额退款
+  pros:
+  - 全球 6400+ 台超高速服务器，内置恶意软件与广告拦截
+  - 自研 NordLynx 协议极速连接，解锁全网流媒体
+  - 德勤 (Deloitte) 多次独立无日志安全审计
+  cons:
+  - 在中国大陆境内需使用混淆服务器 (Obfuscated Servers)
+  score: 95
+  status: active
+  aff_url: https://so.dianlanla.com/nordvpn
+  website_url: https://nordvpn.com
+- id: surfshark
+  name: Surfshark VPN
+  aliases:
+  - Surfshark
+  - 冲浪鲨
+  category: commercial_vpn
+  line_type: 全球 100+ 国家 10Gbps 服务器
+  protocols:
+  - WireGuard
+  - OpenVPN
+  - IKEv2
+  price_starting: $2.19/月
+  bandwidth_tier: 无限流量 / 10Gbps 端口
+  tags:
+  - 无限设备同享
+  - 超高性价比
+  - CleanWeb广告拦截
+  - 30天退款
+  payment_methods:
+  - 信用卡
+  - PayPal
+  - Google Pay
+  - 加密货币
+  refund_policy: 30 天无条件全额退款
+  pros:
+  - 单个账号支持无限台设备同时连接，性价比极高
+  - 全 RAM 纯内存服务器运行，彻底杜绝数据残留
+  - NoBorders 模式专门应对网络受限区域
+  cons:
+  - 部分偏远地区节点连接延迟稍高
+  score: 95
+  status: active
+  aff_url: https://so.dianlanla.com/surfshark
+  website_url: https://surfshark.com
+- id: pia-vpn
+  name: Private Internet Access (PIA)
+  aliases:
+  - PIA
+  - PIA VPN
+  category: commercial_vpn
+  line_type: 全球下一代高速服务器网络
+  protocols:
+  - WireGuard
+  - OpenVPN
+  price_starting: $2.03/月
+  bandwidth_tier: 无限流量
+  tags:
+  - 10年+老牌
+  - 开源客户端
+  - 无限设备
+  - 30天退款
+  payment_methods:
+  - 信用卡
+  - PayPal
+  - 加密货币
+  refund_policy: 30 天无条件全额退款
+  pros:
+  - 拥有 10 余年历史的老牌经典，客户端 100% 完全开源
+  - 价格亲民，支持无限设备同时在线，无日志政策经法院实测检验
+  cons:
+  - 在中国大陆敏感时期需要手动配合 Shadowsocks 代理跳板
+  score: 93
+  status: active
+  aff_url: https://so.dianlanla.com/pia
+  website_url: https://privateinternetaccess.com
