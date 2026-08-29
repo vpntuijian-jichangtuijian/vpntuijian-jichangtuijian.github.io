@@ -1,4 +1,4 @@
-# 2026-2027 稳定高速VPN推荐与机场推荐：50款性价比科学上网翻墙梯子与节点订阅测速指南
+# 2027 稳定高速VPN推荐与机场推荐：50款性价比科学上网翻墙梯子与节点订阅测速指南
 
 [![Data and link checks](https://github.com/vpntuijian-jichangtuijian/vpntuijian-jichangtuijian.github.io/actions/workflows/data-and-links.yml/badge.svg)](https://github.com/vpntuijian-jichangtuijian/vpntuijian-jichangtuijian.github.io/actions/workflows/data-and-links.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
