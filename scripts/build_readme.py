@@ -286,6 +286,20 @@ def build():
 - **自动巡检流水线**：项目通过 [GitHub Actions](.github/workflows/data-and-links.yml) 每周自动核验服务商链接与状态。
 
 > 🌟 **欢迎 Star & Fork 支持**：如果本指南对你的选型有所帮助，欢迎在页面右上角点亮 **Star 🌟** 支持我们持续每周巡检维护！本仓库原创内容遵循 [`MIT License`](LICENSE) 协议。
+
+---
+
+## 9. 推荐开源矩阵与垂直专精榜单 (矩阵互通)
+
+为满足不同用户的垂直需求，我们同步维护了针对细分场景的开源矩阵项目：
+
+| 矩阵项目 | 核心侧重点 | 适合人群 | 快速直达 |
+| :--- | :--- | :--- | :--- |
+| **cheap-vpn** | **10元以下超低价 / 免费试用 / 防跑路指南** | 学生党、预算党、大流量下载 | [👉 访问 cheap-vpn 榜单](https://github.com/vpntuijian-jichangtuijian/cheap-vpn) |
+| **clash-ai** | **AI 原生住宅 IP / 企业级 IPLC / 4K 零风控** | 程序员、Claude/ChatGPT重度用户、外贸 | [👉 访问 clash-ai 专线榜](https://github.com/vpntuijian-jichangtuijian/clash-ai) |
+| **vless-reality/vpn1** | **月均个位数低价机场实测与测速图谱** | 预算敏感型、多设备备用 | [👉 访问 vless-reality/vpn1](https://github.com/vless-reality/vpn1) |
+| **vless-reality/clash1** | **流媒体解锁与 AI 编程助手实测报告** | 4K追剧、Cursor、Claude Code | [👉 访问 vless-reality/clash1](https://github.com/vless-reality/clash1) |
+
 """
 
     readme_path = ROOT / "README.md"
