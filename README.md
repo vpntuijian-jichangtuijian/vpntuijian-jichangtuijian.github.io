@@ -146,17 +146,16 @@
 
 ### 云猫VPN (Yuncat Cloud)
 
-> **综合评级**：⭐ **99/100** ｜ **起步价格**：`￥0 免费试用 / ￥12/月起` ｜ **线路类型**：`BGP 多线优化 + 极速 IEPL 专线`  
+> **综合评级**：⭐ **99/100** ｜ **起步价格**：`￥0 免费试用 / ￥9.8/月起` ｜ **线路类型**：`BGP 多线优化 + 极速 IEPL 专线`  
 > **核心标签**：`🔥独家支持免费试用` `ChatGPT/Claude` `4K/8K秒开` `全平台一键导入`
 
-- **支持协议**：Hysteria 2, VLESS-Reality, Trojan, Shadowsocks
+- **支持实时最新协议**：Hysteria 2, VLESS-Reality, Trojan, Shadowsocks
 - **带宽规格**：10000Mbps 极速专线集群
 - **退款与支持**：支持试用体验，工单极速响应 ｜ 支付方式：支付宝, 微信支付
 - **深度优缺点解析**：
   - ✅ 🔥【重点推荐】新用户注册直接领取免费试用流量，零成本上车测速
   - ✅ 全节点标配解锁 ChatGPT 4o、Claude 3.5、Sora 及 Netflix/YouTube 4K
   - ✅ 部署最新 Hysteria 2 与 VLESS-Reality 防封协议，晚高峰 0 丢包
-  - ⚠️ 高峰期免费试用节点可能需要排队，建议体验满意后升级高速专线
 
 👉 **[🔥 前往 云猫VPN (Yuncat Cloud) 官方通道免费领取试用](https://cloud.yuncat.net/#/register?code=IJOjygWb)** ｜ [官方主页 (cloud.yuncat.net)](https://cloud.yuncat.net/#/register?code=IJOjygWb) ｜ [🔝 回到目录](#-目录导航)
 
