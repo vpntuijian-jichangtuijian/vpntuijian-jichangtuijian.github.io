@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Providers](https://img.shields.io/badge/providers-51-brightgreen)](data/providers.yml)
 [![Score](https://img.shields.io/badge/quality%20score-100%2F100-success)](scripts/evaluate_quality.py)
-[![Last verified](https://img.shields.io/badge/verified-2026%20年%2010%20月%2005%20日-blue)](https://github.com/vpntuijian-jichangtuijian/vpntuijian-jichangtuijian.github.io)
+[![Last verified](https://img.shields.io/badge/verified-2026%20年%2010%20月%2012%20日-blue)](https://github.com/vpntuijian-jichangtuijian/vpntuijian-jichangtuijian.github.io)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 > ⭐️ **防失联与收藏建议**：建议点击仓库右上角 **Star 🌟 收藏本项目**！由于网络环境多变、节点具有时效性且行业跑路频发，本项目每周一定时巡检与自愈更新。Star 收藏后可随时在 GitHub 个人收藏夹一键找回最新测速结果与避坑指南。
@@ -36,7 +36,7 @@
 
 > 📌 **全网收录品牌矩阵**：云猫VPN (Yuncat Cloud)、TAG-VPN、WgetCloud VPN、Nexitally 奶昔-VPN、STC-SPADES-VPN、SpeedCAT闪电猫-VPN、极客云VPN、大哥云-VPN、星链云VPN、bygcloud白月光-VPN、SSRDOG-VPN、YToo（歪兔）-VPN、星云-VPN、闪连VPN、赔钱-VPN、狗狗加速-VPN、尔湾云-VPN、疾风云-VPN、九霄云-VPN、泡泡Dog-VPN、肥猫云VPN、Taishan Net 泰山-VPN、闪电-VPN、三月七-VPN、奶优 NaiU_Net-VPN、轻云VPN、千速喵-VPN、青云梯-VPN、牧牛云VPN、Eternal Network-VPN、FLYINGBIRD飞鸟VPN、Bitz Net-VPN、光年梯vpn、龙猫云VPN、CAC Apex-VPN、夜煞云VPN、xgcloud-VPN、V2free-VPN、XSUS-VPN、红杏-VPN、Riolu 精灵学院-VPN、Cylink 次元链接-VPN、Coffee Cloud 咖啡云-VPN、NiceDuck-VPN、CyberGuard-VPN、杨帆云vpn、Cloud-VPN、ExpressVPN、NordVPN、Surfshark VPN、Private Internet Access (PIA) 等。
 
-> **🕒 最近实测核验更新：2026 年 10 月 05 日** · 包含独家免费试用专区、全平台客户端避坑手册与自动化巡检体系。
+> **🕒 最近实测核验更新：2026 年 10 月 12 日** · 包含独家免费试用专区、全平台客户端避坑手册与自动化巡检体系。
 
 ---
 
@@ -146,16 +146,17 @@
 
 ### 云猫VPN (Yuncat Cloud)
 
-> **综合评级**：⭐ **99/100** ｜ **起步价格**：`￥0 免费试用 / ￥9.8/月起` ｜ **线路类型**：`BGP 多线优化 + 极速 IEPL 专线`  
+> **综合评级**：⭐ **99/100** ｜ **起步价格**：`￥0 免费试用 / ￥12/月起` ｜ **线路类型**：`BGP 多线优化 + 极速 IEPL 专线`  
 > **核心标签**：`🔥独家支持免费试用` `ChatGPT/Claude` `4K/8K秒开` `全平台一键导入`
 
-- **支持实时最新协议**：Hysteria 2, VLESS-Reality, Trojan, Shadowsocks
+- **支持协议**：Hysteria 2, VLESS-Reality, Trojan, Shadowsocks
 - **带宽规格**：10000Mbps 极速专线集群
 - **退款与支持**：支持试用体验，工单极速响应 ｜ 支付方式：支付宝, 微信支付
 - **深度优缺点解析**：
   - ✅ 🔥【重点推荐】新用户注册直接领取免费试用流量，零成本上车测速
   - ✅ 全节点标配解锁 ChatGPT 4o、Claude 3.5、Sora 及 Netflix/YouTube 4K
   - ✅ 部署最新 Hysteria 2 与 VLESS-Reality 防封协议，晚高峰 0 丢包
+  - ⚠️ 高峰期免费试用节点可能需要排队，建议体验满意后升级高速专线
 
 👉 **[🔥 前往 云猫VPN (Yuncat Cloud) 官方通道免费领取试用](https://cloud.yuncat.net/#/register?code=IJOjygWb)** ｜ [官方主页 (cloud.yuncat.net)](https://cloud.yuncat.net/#/register?code=IJOjygWb) ｜ [🔝 回到目录](#-目录导航)
 
