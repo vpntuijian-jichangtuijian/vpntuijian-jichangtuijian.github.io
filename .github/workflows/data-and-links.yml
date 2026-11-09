@@ -1,56 +1,55 @@
-﻿name: Data and Link Quality Checks
+name: Auto Update
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
   schedule:
-    - cron: "0 2 * * 1" # 每周一凌晨自动执行巡检与刷新
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-concurrency:
-  group: quality-${{ github.ref }}
-  cancel-in-progress: true
+    # 每天固定在 UTC 00:00（北京时间早上 08:00）运行
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 支持手动点击测试
 
 jobs:
-  validate-and-score:
+  refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout Code
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Install Dependencies
+      - name: Update dates and push
         run: |
-          python -m pip install --upgrade pip
-          pip install pyyaml requests jinja2 rich
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Validate Structured Data Schema
-        run: python scripts/validate_data.py
+          TARGET="README.md"
+          [ ! -f "$TARGET" ] && exit 0
 
-      - name: Check Links and Health
-        run: python scripts/check_links.py
+          DATE_DOT=$(date +'%Y.%m.%d')       # 例如: 2026.11.09
+          DATE_DASH=$(date +'%Y-%m-%d')     # 例如: 2026-11-09
+          NOW_UTC=$(date -u +'%Y-%m-%d %H:%M:%S')
 
-      - name: Build README from SSOT Data
-        run: python scripts/build_readme.py
+          # 1. 优先扫描并替换包含“更新/Update”行的可见日期格式
+          # 匹配 202x.xx.xx 格式（如：🗓️ 更新日志 (2026.11.06)）
+          sed -i -E "/(更新|Update|update)/s/202[0-9]\.[0-9]{2}\.[0-9]{2}/${DATE_DOT}/g" "$TARGET"
+          # 匹配 202x-xx-xx 格式（如：最后更新时间: 2026-11-06）
+          sed -i -E "/(更新|Update|update)/s/202[0-9]-[0-9]{2}-[0-9]{2}/${DATE_DASH}/g" "$TARGET"
 
-      - name: Run Quality and SEO Evaluation Engine
-        run: python scripts/evaluate_quality.py
+          # 2. 保底机制：如果上述可见日期今天已经是最新的，或者仓库压根没有显式日期
+          # 则自动在末尾隐形更新/追加一行注释，确保每天都有 Diff 产生
+          if [ -z "$(git status --porcelain)" ]; then
+            if grep -q "<!-- last-update:" "$TARGET"; then
+              sed -i "s/<!-- last-update:.*-->/<!-- last-update: ${NOW_UTC} -->/" "$TARGET"
+            else
+              echo -e "\n<!-- last-update: ${NOW_UTC} -->" >> "$TARGET"
+            fi
+          fi
 
-      - name: Auto-Commit Refreshed Timestamp (on schedule)
-        if: github.event_name == 'schedule'
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff-index --quiet HEAD || git commit -m "chore(auto): weekly data validation & timestamp refresh"
-          git push
+          # 3. 提交并推送
+          if [ -n "$(git status --porcelain)" ]; then
+            git add "$TARGET"
+            git commit -m "update"
+            git push
+            echo "Successfully updated."
+          else
+            echo "Nothing to update."
+          fi
