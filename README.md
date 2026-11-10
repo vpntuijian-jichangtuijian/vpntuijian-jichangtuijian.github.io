@@ -1184,3 +1184,5 @@
 | **vless-reality/vpn1** | **月均个位数低价机场实测与测速图谱** | 预算敏感型、多设备备用 | [👉 访问 vless-reality/vpn1](https://github.com/vless-reality/vpn1) |
 | **vless-reality/clash1** | **流媒体解锁与 AI 编程助手实测报告** | 4K追剧、Cursor、Claude Code | [👉 访问 vless-reality/clash1](https://github.com/vless-reality/clash1) |
 
+
+<!-- last-update: 2026-11-10 04:51:16 -->
