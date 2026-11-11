@@ -1185,4 +1185,4 @@
 | **vless-reality/clash1** | **流媒体解锁与 AI 编程助手实测报告** | 4K追剧、Cursor、Claude Code | [👉 访问 vless-reality/clash1](https://github.com/vless-reality/clash1) |
 
 
-<!-- last-update: 2026-11-10 04:51:16 -->
+<!-- last-update: 2026-11-11 04:51:16 -->
